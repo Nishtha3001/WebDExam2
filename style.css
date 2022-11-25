@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wholebody{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(224, 224, 217);
+    align-items: center;
+}
+.container
+{
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 150px;
+    width: 60%;
+    border: 5px solid gray;
+}
+#head-color-line{
+    text-align: center;
+    color: indigo;
+    font-size: 40px;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+.flex{
+    display: flex;
+    margin: 2rem;
+}
+input{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+button{
+    width: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.align-center{
+    margin-left: 25%;
+    height: 150px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="radio"] {
+    appearance: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 2px solid;
+    border-radius: 50%;
+}
+input[type="radio"]:checked {
+    
+    background-color: var(--radio-color);
+}
+
+#BabyPink {
+    border: 3px rgb(242, 172, 185) solid;
+    --radio-color: rgb(242, 172, 185);
+}
+
+#Blue {
+    border: 3px rgb(19, 64, 179) solid;
+    --radio-color: rgb(19, 64, 179);
+}
+
+#Green {
+    --radio-color: rgb(160, 216, 152);
+    border: 3px rgb(10, 87, 0) solid;
+}
+
+#Black {
+    --radio-color: black;
+    border: 3px black solid;
+}
+
+#Light {
+    border: 3px gray;
+    --radio-color: rgb(48, 48, 48) solid;
+}
+.align-hr{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    width: 61%;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: px;
+    background-color: gray;
+}
